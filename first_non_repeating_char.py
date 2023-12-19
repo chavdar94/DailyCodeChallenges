@@ -13,6 +13,5 @@ def first_non_repeating_letter(s):
         char_lower = ch.lower()
         if lowered.count(char_lower) == 1:
             return ch
-    else:
-        return ""
+    return ''
         
